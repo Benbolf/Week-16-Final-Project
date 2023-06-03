@@ -1,0 +1,109 @@
+body {
+  padding: 15;
+  margin: 15;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 25px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  padding: 10;
+}
+.navBar {
+  width: 100vw;
+  background-color: rgb(202, 50, 50);
+  color: rgba(255, 255, 255, 0.473);
+  font-size: 24px;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin-right: 1em;
+}
+
+nav ul li:hover {
+  color: rgba(0, 0, 0, 0.705)
+}
+
+nav ul li:active {
+  background-color: rgb(128, 107, 0);
+}
+
+
+
+.welcomeSection {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  background-color: #759bdda1;
+  padding: 50px;
+  text-size-adjust: 150px;
+  margin-right: 25px;
+  border-radius: 50px;
+  border-color: rgb(58, 25, 221);
+  border-style: groove;
+  border-width: 25px;
+  
+
+
+}
+
+.app {
+  background-image: url(https://skyandtelescope.org/wp-content/uploads/heic1719c_sculptor_dwarf_480px.jpg);
+}
+text {
+ padding-left: 10px;
+ font-style: italic;
+}
+div#info p {
+  text-indent: 20px;
+}
+
+.img-container {
+  text-align: center;
+  margin-right: 150px;
+}
+header {
+  background-color: red;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  margin-right: 25px;
+}
+.DynamicTable {
+  margin-left: 100px;
+  margin-right: 20px ;
+  font-style: oblique;
+  }
+.logo {
+   background-image: url(./1.svg);
+ }
+ .image {
+ margin-right: 150px;
+
+ }
+.element {
+object-fit: fill || contain || cover || none || scale-down;
+}
+.tb{
+  margin-right: 150px;
+  
+  
+  }
+
